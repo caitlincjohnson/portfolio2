@@ -1,0 +1,9 @@
+hero-container {
+  background-image: url('/src/assets/background.jpg');
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 100vh;
+}
