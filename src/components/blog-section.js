@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
 
-class PortfolioSection extends Component {
+class BlogSection extends Component {
   render() {
     return (
       <section>
-        <h2>Full-Stack Development Portfolio</h2>
+        <h2>Personal Blog</h2>
         <display-items>
-          Portfolio Items Go Here
+          Blog Items
         </display-items>
       </section>
     );
   }
 }
 
-export default PortfolioSection;
+export default BlogSection;
