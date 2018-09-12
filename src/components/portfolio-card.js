@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class PortfolioCard extends Component {
   render() {
 
-    {id, title, summary, description, github} = this.props.portfolioItems
+    let {id, title, summary, description, techStack, github} = this.props.portfolio
 
     return (
       <portfolio-card>

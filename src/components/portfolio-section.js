@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PortfolioCard from './portfolio-card';
 
 class PortfolioSection extends Component {
 
@@ -32,9 +33,9 @@ class PortfolioSection extends Component {
   render() {
     return (
       <section>
-        <h2>Full-Stack Development Portfolio</h2>
+        <h2 className="header">Full-Stack Development Portfolio</h2>
         <display-items>
-          Portfolio Items Go Here
+          <PortfolioCard portfolio={this.state[0]} />
         </display-items>
       </section>
     );
