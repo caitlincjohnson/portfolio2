@@ -1,20 +1,21 @@
 import React, { Component } from 'react';
-import Hero from './components/hero.js';
-import PortfolioSection from './components/portfolio-section.js';
-import AboutMeSection from './components/about-me-section.js';
-import BlogSection from './components/blog-section.js';
-import Contact from './components/contact.js';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Portfolio from './pages/portfolio';
+import Blog from './pages/blog';
+import Home from './pages/home';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div>
-        <Hero />
-        <PortfolioSection />
-        <AboutMeSection />
-        <BlogSection />
-        <Contact />
+          <Router>
+              <Switch>
+                  <Route exact path="/portfolio" component = {Portfolio} />
+                  <Route exact path="/blog" component = {Blog} />
+                  <Route exact path="/" component = {Home} />
+              </Switch>
+          </Router>
       </div>
     );
   }
