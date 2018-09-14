@@ -13,7 +13,6 @@ class Home extends Component {
         <PortfolioSection />
         <AboutMeSection />
         <BlogSection />
-        <Contact />
       </div>
     );
   }

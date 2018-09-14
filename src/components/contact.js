@@ -3,12 +3,12 @@ import React, { Component } from 'react';
 class Contact extends Component {
   render() {
     return (
-      <section>
+      <section className="contactme">
         <h2>Contact Me</h2>
-        <p>Image Goes Here</p>
-        <p>Caitlin C. Johnson</p>
+        <img id="contactme-img" src="assets/homepage/portrait.jpg" alt="Caitlin C Johnson" />
+        <p id="contactme-heading">Caitlin C. Johnson</p>
         <p>San Diego, California, USA</p>
-        <p>caitlin.ch.johnson@gmail.com</p>
+        <a href="mailto:caitlin.ch.johnson@gmail.com">caitlin.ch.johnson@gmail.com</a>
       </section>
     );
   }
