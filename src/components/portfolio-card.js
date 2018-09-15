@@ -3,9 +3,7 @@ import React, { Component } from 'react';
 class PortfolioCard extends Component {
   render() {
 
-    let {id, title, summary, description, techStack, github, imgName} = this.props.portfolio
-
-    let imgFilePath = "assets/portfolio_section/" + imgName
+    let {id, title, summary, description, techStack, github, imgFilePath} = this.props.portfolio
 
     return (
       <div>

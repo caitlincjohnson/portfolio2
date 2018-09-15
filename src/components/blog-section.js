@@ -48,7 +48,7 @@ class BlogSection extends Component {
         <div className="display-items" style={{display: "flex", flexDirection: "row-reverse"}}>
           {blogItems}
         </div>
-        <a href="#blog" className="btn btn-sm">View All</a>
+        <a href="/blog" className="btn btn-sm">View All</a>
       </section>
     );
   }

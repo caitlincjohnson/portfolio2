@@ -152,6 +152,35 @@ arrow-down {
 }
 
 /*
+Education section
+*/
+
+education-card {
+  display: flex;
+  flex-direction: row;
+}
+
+.education-img {
+  object-fit: cover;
+  height: 300px;
+  width: 300px;
+  background-clip: content-box;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.education-description {
+  width: 40vw;
+  text-align: left;
+  padding-left: 5rem;
+}
+
+.reverse-flex{
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+/*
 Portfolio section
 */
 
@@ -348,6 +377,7 @@ Contact Me section
 .contactme {
   align-items: center;
   height: auto;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -371,4 +401,41 @@ Contact Me section
   margin: 1rem 0 1rem 0;
   border-radius: 50%;
   height: 20vh;
+}
+
+/* images */
+
+.img-post {
+  max-height: 50vh;
+  margin: 2rem;
+}
+
+/* About Me Page */
+
+aboutme {
+  padding: 2rem;
+  position: relative;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1rem;
+  text-align: left;
+  font-weight: lighter;
+  color: #000;
+}
+
+/* Page CSS */
+
+page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+page > h1 {
+  font-size: 3rem;
+  -webkit-margin-after: .5rem;
+  font-family: "Nixie One";
+  font-weight: normal;
 }
