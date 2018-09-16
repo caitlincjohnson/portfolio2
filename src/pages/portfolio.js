@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import PortfolioCard from '../components/portfolio-card';
+import PortfolioCard from '../components/cards/portfolio-card';
 
 class Portfolio extends Component {
   constructor(props){

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import BlogCard from './blog-card';
+import BlogCard from '../cards/blog-card';
 
 class BlogSection extends Component {
 

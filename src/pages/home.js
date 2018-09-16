@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import Hero from '../components/hero.js';
-import SkillsSection from '../components/skills-section.js';
-import ExperienceSection from '../components/experience-section.js';
-import EducationSection from '../components/education-section.js';
-import PortfolioSection from '../components/portfolio-section.js';
-import AboutMeSection from '../components/about-me-section.js';
-import BlogSection from '../components/blog-section.js';
+import SkillsSection from '../components/sections/skills-section.js';
+import ExperienceSection from '../components/sections/experience-section.js';
+import EducationSection from '../components/sections/education-section.js';
+import PortfolioSection from '../components/sections/portfolio-section.js';
+import AboutMeSection from '../components/sections/about-me-section.js';
+import BlogSection from '../components/sections/blog-section.js';
 import Contact from '../components/contact.js';
 
 class Home extends Component {

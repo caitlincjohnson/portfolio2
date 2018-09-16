@@ -152,6 +152,32 @@ arrow-down {
 }
 
 /*
+Skills section
+*/
+
+.skills-level-box {
+  margin: 1rem 0 0 1rem;
+  text-align: left;
+}
+
+.skills-description-box {
+  text-align: left;
+}
+
+#skills-section-intro {
+  width: 70vw;
+  margin: 2rem 0 2rem 0;
+}
+
+.skills-description-box > h3 {
+  font-weight: bold;
+}
+
+.skills-description-box > p {
+  font-size: .9rem;
+}
+
+/*
 Education section
 */
 
