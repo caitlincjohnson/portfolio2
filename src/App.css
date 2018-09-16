@@ -320,6 +320,10 @@ portfolio-title {
   }
 }
 
+#about-me-btns > a {
+  margin: 1rem;
+}
+
 /* Blog section */
 
 .blog-img {
