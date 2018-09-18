@@ -14,8 +14,6 @@ class SkillsSection extends Component {
 }
 
   render() {
-    let { languages, frameworks, technologies } = this.state
-
     let languageBars = this.state.languages.map((language) => {
       return (
         <div>

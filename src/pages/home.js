@@ -1,23 +1,23 @@
 import React, { Component } from 'react';
-import Hero from '../components/hero.js';
-import SkillsSection from '../components/sections/skills-section.js';
-import ExperienceSection from '../components/sections/experience-section.js';
-import EducationSection from '../components/sections/education-section.js';
-import PortfolioSection from '../components/sections/portfolio-section.js';
-import AboutMeSection from '../components/sections/about-me-section.js';
-import BlogSection from '../components/sections/blog-section.js';
-import Contact from '../components/contact.js';
+import Hero from '../components/hero';
+import SkillsSection from '../components/sections/skills-section';
+import ExperienceSection from '../components/sections/experience-section';
+import EducationSection from '../components/sections/education-section';
+import PortfolioSection from '../components/sections/portfolio-section';
+import AboutMeSection from '../components/sections/about-me-section';
+import BlogSection from '../components/sections/blog-section';
+import Contact from '../components/contact';
 
 class Home extends Component {
   render() {
     return (
       <div>
         <Hero />
+        <PortfolioSection />
         <SkillsSection />
         <AboutMeSection />
         <ExperienceSection />
         <EducationSection />
-        <PortfolioSection />
         <BlogSection />
       </div>
     );
