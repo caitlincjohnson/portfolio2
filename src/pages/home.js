@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import Hero from '../components/hero';
 import SkillsSection from '../components/sections/skills-section';
-import ExperienceSection from '../components/sections/experience-section';
-import EducationSection from '../components/sections/education-section';
+// import ExperienceSection from '../components/sections/experience-section';
+// import EducationSection from '../components/sections/education-section';
 import PortfolioSection from '../components/sections/portfolio-section';
 import AboutMeSection from '../components/sections/about-me-section';
 import BlogSection from '../components/sections/blog-section';
@@ -16,8 +16,6 @@ class Home extends Component {
         <PortfolioSection />
         <SkillsSection />
         <AboutMeSection />
-        <ExperienceSection />
-        <EducationSection />
         <BlogSection />
       </div>
     );

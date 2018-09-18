@@ -3,7 +3,8 @@ import React, { Component } from 'react';
 class AboutMe extends Component {
   render() {
     return (
-      <div style={{padding: "2rem"}}>
+      <div className="pagePadding">
+      <h1>About Me</h1>
         <aboutme>
           <img className="img-post" src="assets/about_me/aboutMePortrait.jpg" alt="Caitlin C Johnson" style={{float: "left"}} />
           <p>Upon reading the above quote in Your One Word by Evan Carmichael, I had a life-altering self realization that eventually resulted in me leaving a well-paying, stable job at a healthcare management consulting firm to take a leap of faith into an area in which I had no expertise in: the startup world. I distinctly remember that moment – I was on an Avianca flight somewhere over Mexico’s Sierra Madre del Sur mountain range on my way back from Bolivia. But before I get into the “why”, I’ll give you some background about myself.</p>

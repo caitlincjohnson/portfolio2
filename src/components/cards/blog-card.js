@@ -3,11 +3,11 @@ import React, { Component } from 'react';
 class BlogCard extends Component {
   render() {
 
-    let {id, title, date, summary, imgName, imgAtl} = this.props.blog
+    let {id, title, date, summary, imgName, imgAlt} = this.props.blog
 
     return (
       <div className="blog-card">
-        <img className="blog-img" src={imgName} alt={imgAtl} />
+        <img className="blog-img" src={imgName} alt={imgAlt} />
         <div className="middle">
           <a data-toggle="modal" data-target="#blogPost1" class="btn btn-sm">Read</a>
         </div>

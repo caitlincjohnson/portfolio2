@@ -191,6 +191,10 @@ arrow-down {
 Skills section
 */
 
+#skills {
+  background-color: #F5F5F5;
+}
+
 .skills-level-box {
   margin: 1rem 0 0 1rem;
   text-align: left;
@@ -489,21 +493,24 @@ aboutme {
   color: #000;
 }
 
-/* Page CSS */
+/* Page Structure CSS */
 
-.portfolioSection {
+.pagePadding {
   padding: 3.5rem 1rem 1rem 1rem;
 }
 
-.portfolioSection > h1 {
+.pagePadding > h1 {
   font-size: 3rem;
   font-family: "Nixie One";
   font-weight: normal;
 }
 
-.portfolioSection > p {
+.pagePadding > p {
   padding: 2rem .5rem 2rem .5rem;
 }
+
+
+/* Portfolio Page */
 
 #portfolio {
   display: flex;
@@ -518,4 +525,25 @@ aboutme {
   justify-content: space-between;
   text-align: left;
   padding-left: 2rem;
+}
+
+/* Blog Page */
+
+#portfolio {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-bottom: 3rem;
+}
+
+.blog-content {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding-left: 2rem;
+}
+
+.blog-content > h2 {
+  font-family: "Nixie One";
+  font-weight: normal;
 }

@@ -42,7 +42,7 @@ class SkillsSection extends Component {
     })
 
     return (
-      <section>
+      <section id="skills">
         <h2 className="header">Skills</h2>
         <p id="skills-section-intro">My relative familiarity with each language, framework/library, and technology, expressed as a percentage (100% representing mastery, 0% total ignorance)</p>
         <div className="container" style={{display: "flex", flexDirection: "row"}}>

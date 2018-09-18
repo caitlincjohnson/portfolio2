@@ -19,12 +19,9 @@ class NavigationBar extends Component {
             <NavItem eventKey={2} href="portfolio">
               Portfolio
             </NavItem>
-            <NavItem eventKey={3} href="blog">
-              Blog
-            </NavItem>
           </Nav>
           <Nav pullRight>
-            <NavItem eventKey={1} href="#">
+            <NavItem eventKey={1} href="mailto:caitlin.ch.johnson@gmail.com">
               Contact Me
             </NavItem>
           </Nav>

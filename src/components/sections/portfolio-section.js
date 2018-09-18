@@ -13,24 +13,22 @@ class PortfolioSection extends Component {
 
   render() {
 
-    for (let i = 0; i < 4; i++) {
-
-    }
     let portfolioItems = this.state.portfolioItems.map((portfolio, index) => {
-
-      return (
-        <PortfolioFlipCard portfolio={this.state.portfolioItems[index]}/>
-      )
+      if (index > this.state.portfolioItems.length-5) {
+        return (
+          <PortfolioFlipCard portfolio={this.state.portfolioItems[index]}/>
+        )
+      }
     })
 
     return (
       <section>
         <h2 className="header">Portfolio</h2>
-        <p>Shown below are my most recent projects. Check out my portfolio page for a chronological list of all projects.</p>
+        <p id="skills-section-intro">Shown below are my most recent projects. Check out my portfolio page for a chronological list of all projects.</p>
         <div className="display-items" style={{display: "flex", flexDirection: "row-reverse"}}>
           {portfolioItems}
         </div>
-        <a href="/portfolio" className="btn btn-sm">View All</a>
+        <a href="/portfolio" className="btn btn-med">View All</a>
       </section>
     );
   }
