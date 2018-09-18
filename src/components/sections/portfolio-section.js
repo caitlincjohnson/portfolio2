@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import PortfolioCard from '../cards/portfolio-card';
+import PortfolioFlipCard from '../cards/portfolio-flipcard';
 import data from '../data';
 
 class PortfolioSection extends Component {
@@ -19,7 +19,7 @@ class PortfolioSection extends Component {
     let portfolioItems = this.state.portfolioItems.map((portfolio, index) => {
 
       return (
-        <PortfolioCard portfolio={this.state.portfolioItems[index]}/>
+        <PortfolioFlipCard portfolio={this.state.portfolioItems[index]}/>
       )
     })
 

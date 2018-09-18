@@ -3,20 +3,23 @@ import React, { Component } from 'react';
 class PortfolioCard extends Component {
   render() {
 
-    let {id, title, summary, description, techStack, github, imgFilePath} = this.props.portfolio
+    let {id, title, description, techStack, github, imgFilePath, date, liveLink} = this.props.portfolio
+    let techStackString = techStack.join(", ")
 
     return (
-      <div>
-        <div className="portfolio-card flip-container" onTouchStart="this.classList.toggle('hover');">
-          <div className="flipper">
-            <img className="portfolio-img front" src={imgFilePath} alt="Personal Website" />
-            <div className="back">
-              <portfolio-title>{title}</portfolio-title>
-              <p className="portfolio-text">{summary}</p>
-              <p className="portfolio-text">Tech Stack: {techStack}</p>
-              <a href={{github}} className="btn btn-sm">GitHub</a>
-            </div>
-          </div>
+      <div id="portfolio" className="row">
+        <div className="col-md-2">
+          {date}
+        </div>
+        <div className="col-md-3">
+          <img className="portfolio-img" src={imgFilePath} alt="Personal Website" />
+        </div>
+        <div className="col-md-7 portfolio-content">
+          <portfolio-title>{title}</portfolio-title>
+          <p className="portfolio-text">{description}</p>
+          <p className="portfolio-text">Tech Stack: {techStackString}</p>
+          <a href={{github}} className="btn-sm btn">GitHub</a>
+          <a href={{liveLink}} className="btn-sm btn">View Live Deploy</a>
         </div>
       </div>
     );

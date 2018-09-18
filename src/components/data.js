@@ -97,7 +97,10 @@ export default {
       summary: 'The first version of my personal website which consists of both a portfolio section and a blog section.',
       techStack: ['Bootstrap', 'HTML', 'CSS', 'JavaScript'],
       github: 'https://github.com/caitlincjohnson/Portfolio',
-      imgFilePath: '/assets/portfolio/personal_website.png'
+      imgFilePath: '/assets/portfolio/personal_website.png',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+      date: "August, 2018",
+      liveLink: "https://caitlincjohnson.com/"
     },
     {
       id: 2,
@@ -105,7 +108,10 @@ export default {
       summary: 'Our first React.js project in boot camp consisted of a tic-tac-toe game..',
       techStack: ['React.js', 'HTML', 'CSS', 'JavaScript'],
       github: 'https://github.com/caitlincjohnson/tic-tac-toe-react',
-      imgFilePath: '/assets/portfolio/tic-tac-toe.png'
+      imgFilePath: '/assets/portfolio/tic-tac-toe.png',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+      date: "August, 2018",
+      liveLink: "https://caitlincjohnson.com/"
     },
     {
       id: 3,
@@ -113,7 +119,10 @@ export default {
       summary: 'Quick half-day assignment where I was instructed to build a recipes list.',
       techStack: ['React.js', 'HTML', 'CSS', 'JavaScript'],
       github: 'https://github.com/caitlincjohnson/keto-app',
-      imgFilePath: '/assets/portfolio/keto-app.png'
+      imgFilePath: '/assets/portfolio/keto-app.png',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+      date: "September, 2018",
+      liveLink: "https://caitlincjohnson.com/"
     },
     {
       id: 4,
@@ -121,7 +130,10 @@ export default {
       summary: 'Quick class assignment that involves incorporate NASAs public API into the website with CSS animation.',
       techStack: ['React.js', 'HTML', 'CSS', 'JavaScript'],
       github: 'https://github.com/caitlincjohnson/nasa-api',
-      imgFilePath: '/assets/portfolio/nasa_api.png'
+      imgFilePath: '/assets/portfolio/nasa_api.png',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+      date: "September, 2018",
+      liveLink: "https://caitlincjohnson.com/"
     },
     {
       id: 5,
@@ -129,7 +141,10 @@ export default {
       summary: 'Landing page for a local dog daycare service, which aggregates email addresses.',
       techStack: ['React.js', 'HTML', 'CSS', 'JavaScript'],
       github: 'https://github.com/caitlincjohnson/bonesandwhiskers',
-      imgFilePath: 'assets/portfolio/bonesandwhiskers.png'
+      imgFilePath: 'assets/portfolio/bonesandwhiskers.png',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+      date: "September, 2018",
+      liveLink: "https://www.bonesandwhiskers.com/"
     },
     {
       id: 6,
@@ -137,7 +152,10 @@ export default {
       summary: 'The second version of my portfolio website, which was converted to React.js.',
       techStack: ['React.js', 'HTML', 'CSS', 'JavaScript'],
       github: 'https://github.com/caitlincjohnson/',
-      imgFilePath: 'assets/portfolio/personal_website2.png'
+      imgFilePath: 'assets/portfolio/personal_website2.png',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+      date: "September, 2018",
+      liveLink: "https://caitlincjohnson.com/"
     }
   ],
   "blogs": [
