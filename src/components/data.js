@@ -98,7 +98,7 @@ export default {
       techStack: ['Bootstrap', 'HTML', 'CSS', 'JavaScript'],
       github: 'https://github.com/caitlincjohnson/Portfolio',
       imgFilePath: '/assets/portfolio/personal_website.png',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+      description: 'During the first week of bootcamp, I decided to pull together a portfolio website that would allow me to showcase progress made throughout the three-month program (and beyond). Given my limited knowledge of web development at the time, I utilized HTML5 and CSS3 to develop a static website, and I incorporated modern and parallax design components throughout the website. Additional enhancements to the website in the following weeks focused primarily on making it responsive for mobile devices.',
       date: "August, 2018",
       liveLink: "https://caitlincjohnson.com/"
     },
@@ -109,7 +109,7 @@ export default {
       techStack: ['React.js', 'HTML', 'CSS', 'JavaScript'],
       github: 'https://github.com/caitlincjohnson/tic-tac-toe-react',
       imgFilePath: '/assets/portfolio/tic-tac-toe.png',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+      description: 'After spending a week or two on JavaScript in bootcamp, we were introduced to two new concepts: React.js and mob programming. Shown here is the first project that my "mob programming" group and I completed, which utilizes React.js on the front end. The biggest challenge for me was understanding state and props, how they differed, and how to pass props from one component to another.',
       date: "August, 2018",
       liveLink: "https://caitlincjohnson.com/"
     },

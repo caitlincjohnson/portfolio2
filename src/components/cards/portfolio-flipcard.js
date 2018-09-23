@@ -4,6 +4,7 @@ class PortfolioFlipCard extends Component {
   render() {
 
     let {id, title, summary, description, techStack, github, imgFilePath} = this.props.portfolio
+    let techStackString = techStack.join(", ")
 
     return (
       <div>
@@ -13,7 +14,7 @@ class PortfolioFlipCard extends Component {
             <div className="back">
               <portfolio-title>{title}</portfolio-title>
               <p className="portfolio-text">{summary}</p>
-              <p className="portfolio-text">Tech Stack: {techStack}</p>
+              <p className="portfolio-text">Tech Stack: {techStackString}</p>
               <a href={{github}} className="btn btn-sm">GitHub</a>
             </div>
           </div>
