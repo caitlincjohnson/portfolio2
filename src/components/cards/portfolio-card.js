@@ -19,7 +19,6 @@ class PortfolioCard extends Component {
           <p className="portfolio-text">{description}</p>
           <p className="portfolio-text">Tech Stack: {techStackString}</p>
           <a href={{github}} className="btn-sm btn">GitHub</a>
-          <a href={{liveLink}} className="btn-sm btn">View Live Deploy</a>
         </div>
       </div>
     );
