@@ -5,7 +5,7 @@ class Hero extends Component {
     return (
       <hero-container>
         <h1>CAITLIN C. JOHNSON</h1>
-        <p>Full-Stack Development | Global Health | Innovation</p>
+        <p>Full-Stack Development | Global Impact | Innovation</p>
         <display-items>
           <a href="https://www.facebook.com/caitlin.johnson"><button className="heroButton" id="facebook"/></a>
           <a href="https://www.instagram.com/caitlincjohnson/?hl=en"><button className="heroButton" id="instagram"/></a>

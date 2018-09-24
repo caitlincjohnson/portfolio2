@@ -104,7 +104,7 @@ export default {
     },
     {
       id: 2,
-      title: 'Class Project: Tic Tac Toe',
+      title: 'Tic Tac Toe',
       summary: 'Our first React.js project in boot camp consisted of a tic-tac-toe game..',
       techStack: ['React.js', 'HTML', 'CSS', 'JavaScript'],
       github: 'https://github.com/caitlincjohnson/tic-tac-toe-react',
@@ -115,7 +115,7 @@ export default {
     },
     {
       id: 3,
-      title: 'Class Project: Keto Recipes',
+      title: 'Keto Recipes',
       summary: 'Quick half-day assignment where I was instructed to build a recipes list.',
       techStack: ['React.js', 'HTML', 'CSS', 'JavaScript'],
       github: 'https://github.com/caitlincjohnson/keto-app',

@@ -1,5 +1,38 @@
 /* structure */
 
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: #46adb1;
+}
+
+a:focus, a:hover {
+  color: #fff;
+}
+
+html, body, main {
+  height: 100%;
+  background-color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  html, body {
+    font-size: 20px;
+  }
+}
+
+.btn  {
+  background: #46adb1;
+  color: #fff !important;
+}
+
 section {
   display: flex;
   flex-direction: column;
@@ -485,19 +518,19 @@ Contact Me section
 
 aboutme {
   padding: 2rem;
-  position: relative;
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
-  padding: 1rem;
   text-align: left;
   font-weight: lighter;
   color: #000;
 }
 
+aboutme > p {
+  font-size: .9rem;
+}
+
 /* Page Structure CSS */
 
 .pagePadding {
-  padding: 3.5rem 1rem 1rem 1rem;
+  padding: 3.5rem 1.5rem 1.5rem 1.5rem;
 }
 
 .pagePadding > h1 {
@@ -528,50 +561,23 @@ aboutme {
   padding-left: 2rem;
 }
 
-/* Blog Page */
-
-#portfolio {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  padding-bottom: 3rem;
-}
-
-.blog-content {
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-  padding-left: 2rem;
-}
-
-#portfolio-title {
-  font-family: "Nixie One";
-  font-weight: bold;
-  margin-top: 0;
-  padding-top: 0;
-}
-
-#portfolio-btn {
-  max-width: 150px;
-  min-width: auto;
-}
-
-#portfolio-date {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-end;
-}
-
 /* Blog Pages */
 
+.blog {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  padding: 3.5rem 1.5rem 1.5rem 1.5rem;
+}
+
 blog {
-  padding: 2rem;
-  position: relative;
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
   padding: 1rem;
   text-align: left;
   font-weight: lighter;
   color: #000;
+}
+
+blog > a {
+  font-size: 1rem;
 }
