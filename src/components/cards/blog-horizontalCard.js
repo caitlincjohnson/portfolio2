@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class BlogHorizontalCard extends Component {
   render() {
 
-    let {id, title, date, summary, imgName, imgAlt} = this.props.blog
+    let {title, date, summary, imgName, imgAlt} = this.props.blog
 
     return (
       <div id="portfolio" className="row">

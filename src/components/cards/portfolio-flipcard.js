@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class PortfolioFlipCard extends Component {
   render() {
 
-    let {id, title, summary, description, techStack, github, imgFilePath} = this.props.portfolio
+    let {title, summary, techStack, github, imgFilePath} = this.props.portfolio
     let techStackString = techStack.join(", ")
 
     return (

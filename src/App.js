@@ -6,7 +6,6 @@ import Contact from './components/contact';
 //Pages
 import AboutMe from './pages/aboutme';
 import Portfolio from './pages/portfolio';
-import Blog from './pages/blog';
 import Home from './pages/home';
 //Blog Posts
 import TheTransitionBlogPost from './pages/blog/the-transition';

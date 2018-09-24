@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class PortfolioCard extends Component {
   render() {
 
-    let {id, title, description, techStack, github, imgFilePath, date, liveLink} = this.props.portfolio
+    let {title, description, techStack, github, imgFilePath, date} = this.props.portfolio
     let techStackString = techStack.join(", ")
 
     return (

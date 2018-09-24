@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class BlogCard extends Component {
   render() {
 
-    let {id, title, date, summary, imgName, imgAlt, link} = this.props.blog
+    let {title, date, summary, imgName, imgAlt, link} = this.props.blog
 
     return (
       <div className="blog-card">

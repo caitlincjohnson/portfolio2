@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import {Well} from 'react-bootstrap';
 
 class AboutMe extends Component {
   render() {
