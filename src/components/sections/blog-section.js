@@ -23,7 +23,7 @@ class BlogSection extends Component {
     return (
       <section>
         <h2 className="header">Personal Blog</h2>
-        <div className="display-items" style={{display: "flex", flexDirection: "row-reverse"}}>
+        <div className="display-items flex-direction" id="reverse">
           {blogItems}
         </div>
       </section>
