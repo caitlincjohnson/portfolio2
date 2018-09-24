@@ -24,7 +24,7 @@ class PortfolioSection extends Component {
     return (
       <section>
         <h2 className="header">Portfolio</h2>
-        <p id="skills-section-intro">Shown below are my most recent projects. Check out my portfolio page for a chronological list of all projects.</p>
+        <p id="skills-section-intro">Shown below are my most recent projects. Check out the portfolio page for a chronological list of all projects.</p>
         <div className="display-items" style={{display: "flex", flexDirection: "row-reverse"}}>
           {portfolioItems}
         </div>

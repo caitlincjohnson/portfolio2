@@ -39,8 +39,8 @@ export default {
     },
     {
       id: 2,
-      name: 'ReactJS',
-      levelOfExperience: 70
+      name: 'React.js',
+      levelOfExperience: 80
     },
     {
       id: 3,
