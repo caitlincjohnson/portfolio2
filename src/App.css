@@ -550,7 +550,7 @@ aboutme > p {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  padding-bottom: 3rem;
+  padding-bottom: 4rem;
 }
 
 .portfolio-content {
@@ -560,6 +560,26 @@ aboutme > p {
   text-align: left;
   padding-left: 2rem;
 }
+
+#portfolio-title {
+  font-family: "Nixie One";
+  font-weight: bold;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+#portfolio-btn {
+  max-width: 150px;
+  min-width: auto;
+}
+
+#portfolio-date {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
 
 /* Blog Pages */
 
