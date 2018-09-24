@@ -425,6 +425,12 @@ portfolio-title {
   flex-direction: column-reverse;
 }
 
+@media only screen and (min-width: 768px) {
+  #reverse {
+    flex-direction: row-reverse;
+  }
+}
+
 .blog-img {
   object-fit: cover;
   height: 300px;
@@ -463,11 +469,6 @@ portfolio-title {
 }
 
 .middle {
-  /* opacity: 1;
-  position: relative;
-  transform: translate(0, 500%);
-  -ms-transform: translate(0, -450%);
-  text-align: center; */
   position: relative;
   text-align: center;
   transform: translate(0, 510%);
@@ -547,8 +548,9 @@ Contact Me section
 /* images */
 
 .img-post {
-  max-height: 50vh;
-  margin: 2rem;
+  height: auto;
+  width: 90vw;
+  margin-bottom: 1rem;
 }
 
 /* About Me Page */
@@ -562,6 +564,14 @@ aboutme {
 
 aboutme > p {
   font-size: .9rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .img-post {
+    max-height: 50vh;
+    width: auto;
+    margin: 2rem;
+  }
 }
 
 /* Page Structure CSS */
@@ -585,8 +595,10 @@ aboutme > p {
 
 #portfolio {
   display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   padding-bottom: 4rem;
 }
 
@@ -596,27 +608,62 @@ aboutme > p {
   justify-content: space-between;
   text-align: left;
   padding-left: 2rem;
+  text-align: center;
 }
 
 #portfolio-title {
   font-family: "Nixie One";
   font-weight: bold;
   margin-top: 0;
-  padding-top: 0;
+  padding-top: 1rem;
 }
 
 #portfolio-btn {
   max-width: 150px;
   min-width: auto;
+  align-self: center;
 }
 
 #portfolio-date {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-end;
+  padding-bottom: 1rem;
 }
 
+@media only screen and (min-width: 768px) {
+  #portfolio {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-bottom: 4rem;
+  }
+
+  .portfolio-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    padding-left: 2rem;
+  }
+
+  #portfolio-title {
+    font-family: "Nixie One";
+    font-weight: bold;
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  #portfolio-btn {
+    max-width: 150px;
+    min-width: auto;
+  }
+
+  #portfolio-date {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+  }
+}
 
 /* Blog Pages */
 

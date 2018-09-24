@@ -23,7 +23,7 @@ class Portfolio extends Component {
       <div className="pagePadding">
         <h1>Portfolio</h1>
         <p>Shown below are the portfolio items that were either created during the full stack development bootcamp or during my own personal time. I wanted to showcase all of the items so that you can see the progression of skills obtained throughout the 3-month period for the bootcamp.</p>
-        <div style={{display: "flex", flexDirection: "column-reverse"}}>
+        <div className="display-items flex-direction">
           {portfolioItems}
         </div>
       </div>
