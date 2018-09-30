@@ -100,7 +100,7 @@ export default {
       imgFilePath: '/assets/portfolio/personal_website.png',
       description: 'During the first week of bootcamp, I decided to pull together a portfolio website that would allow me to showcase progress made throughout the three-month program (and beyond). Given my limited knowledge of web development at the time, I utilized HTML5 and CSS3 to develop a static website, and I incorporated modern and parallax design components throughout the website. Additional enhancements to the website in the following weeks focused primarily on making it responsive for mobile devices.',
       date: "August, 2018",
-      liveLink: ""
+      liveLink: "https://jovial-beaver-fefa69.netlify.com/"
     },
     {
       id: 2,
@@ -111,7 +111,7 @@ export default {
       imgFilePath: '/assets/portfolio/tic-tac-toe.png',
       description: 'After spending a week or two on JavaScript in bootcamp, we were introduced to two new concepts: React.js and mob programming. Shown here is the first project that my "mob programming" group and I completed, which utilizes React.js on the front end. The biggest challenge for me was understanding state and props, how they differed, and how to pass props from one component to another.',
       date: "August, 2018",
-      liveLink: ""
+      liveLink: "https://glacial-oasis-26862.herokuapp.com/"
     },
     {
       id: 3,
@@ -122,7 +122,7 @@ export default {
       imgFilePath: '/assets/portfolio/keto-app.png',
       description: 'After spending a few days on SQL in bootcamp, we were instructed to do a quick exercise for building a React.js app as a way to refresh our memories on its core components. This app was inspired by my keto diet at the time, and its purpose was to aggregate the ingredients of the keto recipes upon clicking a button and create a grocery shopping list. Given the short amount of time given to work on this short assignment, I did not get to work on the CSS styling as much as I would have liked to.',
       date: "September, 2018",
-      liveLink: ""
+      liveLink: "https://rocky-island-58244.herokuapp.com/"
     },
     {
       id: 4,
@@ -144,7 +144,7 @@ export default {
       imgFilePath: 'assets/portfolio/bonesandwhiskers.png',
       description: 'My partner has decided to explore the possibility of opening a dog day care and boarding business in Tijuana, and asked me to pull together a standard landing page for the purpose of aggregating emails. Given the task at hand, I utilized React.js and CSS media queries to make this a responsive landing page for end users. Additionally, I incorporated a Mailchimp API into the website to collect email addresses and a Google Analytics tag to monitor where website traffic is coming from. For styling, Google Fonts pairing was utilized to obtain two different font styles that paired well together. This website can be viewed live at bonesandwhiskers.com.',
       date: "September, 2018",
-      liveLink: ""
+      liveLink: "https://www.bonesandwhiskers.com/"
     },
     {
       id: 6,
@@ -155,7 +155,7 @@ export default {
       imgFilePath: 'assets/portfolio/personal_website2.png',
       description: 'I decided to enhance my React.js skills by converting the original HTML/CSS version of my personal website into one that utilizes React.js; this was mostly driven by the need to have multiple pages for hosting my blog and portfolio items Additionally, I learned about the importance of "meta tags" within the HTML header and why they are needed for search engine optimization; this concept was incorporated within this version of the website And lastly, I wanted to provide my audience with links to my social media accounts as a way to provide transparency and hopefully make me appear less like a stranger on the internet.',
       date: "September, 2018",
-      liveLink: ""
+      liveLink: "https://caitlincjohnson.com/"
     }
   ],
   "blogs": [
