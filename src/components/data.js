@@ -72,7 +72,7 @@ export default {
       name: 'Microsoft Visual Studio',
       levelOfExperience: 30
     }
-  ]
+  ],
   "frameworks": [
     {
       id: 1,
