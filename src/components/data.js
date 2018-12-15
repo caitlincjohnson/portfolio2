@@ -7,18 +7,18 @@ export default {
     },
     {
       id: 2,
-      name: 'Ruby',
-      levelOfExperience: 50
-    },
-    {
-      id: 3,
-      name: 'JavaScript',
+      name: 'SQL',
       levelOfExperience: 80
     },
     {
+      id: 3,
+      name: 'Ruby',
+      levelOfExperience: 30
+    },
+    {
       id: 4,
-      name: 'SQL',
-      levelOfExperience: 40
+      name: 'JavaScript',
+      levelOfExperience: 70
     },
     {
       id: 5,
@@ -31,6 +31,48 @@ export default {
       levelOfExperience: 80
     }
   ],
+  "technologies": [
+    {
+      id: 1,
+      name: 'Snowflake',
+      levelOfExperience: 60
+    },
+    {
+      id: 2,
+      name: 'Git and Github',
+      levelOfExperience: 70
+    },
+    {
+      id: 3,
+      name: 'AWS Lambda',
+      levelOfExperience: 50
+    },
+    {
+      id: 4,
+      name: 'AWS S3',
+      levelOfExperience: 50
+    },
+    {
+      id: 5,
+      name: 'Terminal',
+      levelOfExperience: 80
+    },
+    {
+      id: 6,
+      name: 'Atom',
+      levelOfExperience: 80
+    },
+    {
+      id: 7,
+      name: 'Jupyter Notebook',
+      levelOfExperience: 40
+    },
+    {
+      id: 8,
+      name: 'Microsoft Visual Studio',
+      levelOfExperience: 30
+    }
+  ]
   "frameworks": [
     {
       id: 1,
@@ -51,43 +93,6 @@ export default {
       id: 4,
       name: 'Bootstrap',
       levelOfExperience: 40
-    }
-  ],
-  "technologies": [
-    {
-      id: 1,
-      name: 'Jupyter Notebook',
-      levelOfExperience: 40
-    },
-    {
-      id: 2,
-      name: 'Atom',
-      levelOfExperience: 80
-    },
-    {
-      id: 3,
-      name: 'Anaconda',
-      levelOfExperience: 40
-    },
-    {
-      id: 4,
-      name: 'Microsoft Visual Studio',
-      levelOfExperience: 30
-    },
-    {
-      id: 5,
-      name: 'Git and Github',
-      levelOfExperience: 70
-    },
-    {
-      id: 6,
-      name: 'Terminal',
-      levelOfExperience: 80
-    },
-    {
-      id: 7,
-      name: 'Orange3',
-      levelOfExperience: 30
     }
   ],
   "portfolio": [
